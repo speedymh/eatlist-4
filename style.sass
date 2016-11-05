@@ -47,7 +47,20 @@ body
 				letter-spacing: .3
 				padding: 8px 12px
 				cursor: pointer
+				display: flex
+				align-items: center
 		
+				i
+					font-size: 0em
+					margin-left: 0px
+					transform: scale(0)
+					transition: all .3s ease-in-out
+		
+					&.show
+						transform: scale(1)
+						margin-left: 5px
+						display: block
+						font-size: .8em
 
 			.login 
 				border: 1px solid #909090
@@ -59,7 +72,6 @@ body
 
 				&:hover 
 					background: #efefef
-			
 					
 			.register 
 				margin-left: 6px
@@ -71,14 +83,6 @@ body
 
 				&:hover 
 					background: #de1323
-		
-				img
-					transform: rotate(90deg)
-					height: 10px
-					width: 15px
-					
-			
-				&.show
 	
 		.input 
 			height: 0

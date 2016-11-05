@@ -1,6 +1,6 @@
-$(function(){
-	$('.register').on('click', function(){
+$(function () {
+	$('.register').on('click', function () {
 		$('.input').toggleClass('show');
-		$('.cta').toggleClass('active');
+		$('.i-register').toggleClass('show');
 	});
 });

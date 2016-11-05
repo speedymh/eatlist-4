@@ -38,7 +38,19 @@ body {
         font-size: 0.95em;
         letter-spacing: 0.3;
         padding: 8px 12px;
-        cursor: pointer; }
+        cursor: pointer;
+        display: flex;
+        align-items: center; }
+        body .wrapper .cta button i {
+          font-size: 0em;
+          margin-left: 0px;
+          transform: scale(0);
+          transition: all 0.3s ease-in-out; }
+          body .wrapper .cta button i.show {
+            transform: scale(1);
+            margin-left: 5px;
+            display: block;
+            font-size: 0.8em; }
       body .wrapper .cta .login {
         border: 1px solid #909090;
         border-radius: 3px;
@@ -57,10 +69,6 @@ body {
         align-items: center; }
         body .wrapper .cta .register:hover {
           background: #de1323; }
-        body .wrapper .cta .register img {
-          transform: rotate(90deg);
-          height: 10px;
-          width: 15px; }
     body .wrapper .input {
       height: 0;
       margin-top: 0px;
