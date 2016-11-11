@@ -76,7 +76,7 @@ body {
           flex-grow: 2; }
           body .wrapper .cta-wrapper .cta .register:hover {
             background: #de1323; }
-      body .wrapper .cta-wrapper .input {
+      body .wrapper .cta-wrapper [class^="input"] {
         height: 0;
         margin-top: 0px;
         border-radius: 2px;
@@ -84,7 +84,7 @@ body {
         padding: 0px 5px;
         transition: all 0.3s ease-in-out;
         width: 100%; }
-        body .wrapper .cta-wrapper .input.show {
+        body .wrapper .cta-wrapper [class^="input"].show {
           height: inherit;
           margin-top: 10px;
           border: 1px solid #909090;
