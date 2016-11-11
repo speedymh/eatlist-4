@@ -20,7 +20,7 @@ $(function () {
 			$('.i-login').addClass('show');
 			$('.i-register').removeClass('show');
 		} else {
-			$('.input').toggleClass('show');
+			$('.input-login').addClass('show');
 			$('.i-register').removeClass('show');
 			$('.i-login').addClass('show');
 		}
